@@ -1,3 +1,223 @@
+47.2.1 - 23 Jan, 2025
+=====================
+
+Changes since 47.2
+
+  - Fix release pipeline
+
+47.2 - 22 Jan, 2025
+=====================
+
+Changes since 47.1
+
+  - Fix AppStream metadata
+
+47.1 - 22 Jan, 2025
+=====================
+
+Changes since 47.0
+
+  - Fix key events in fullscreen mode
+  - Fix scrolling for VNC connections
+  - Start using GNOME Release Service
+  - Add GIT_SUBMODULE_STRATEGY recursive to bundle subprojects
+  - Switch to master gnome release service branch
+  - Update gtk-frdp:
+     - Queue drawing of the area from the main thread
+
+  - Added/Updated translations:
+     - Brazilian-Portuguese
+     - Czech
+     - Dutch
+     - Friulian
+     - Serbian
+     - Serbian-Latin
+     - Thai
+
+47.0 - 13 Sep, 2024
+=====================
+
+Changes since 47.beta
+
+  - Added/Updated translations:
+     - Basque
+     - Belarusian
+     - Brazilian-Portuguese
+     - British-English
+     - Bulgarian
+     - Catalan
+     - Chinese-China
+     - Czech
+     - Danish
+     - Finnish
+     - French
+     - Galician
+     - Georgian
+     - German
+     - Greek
+     - Hebrew
+     - Hindi
+     - Indonesian
+     - Kazakh
+     - Korean
+     - Latvian
+     - Lithuanian
+     - Norwegian-Bokm-l
+     - Occitan
+     - Persian
+     - Polish
+     - Portuguese
+     - Romanian
+     - Russian
+     - Spanish
+     - Swedish
+     - Thai
+     - Turkish
+     - Ukrainian
+
+47.beta - 5 Aug, 2024
+=====================
+
+Changes since 47.alpha
+
+  - Update text describing remote desktop settings location
+  - Make PATH translatable
+
+  - Added/Updated translations:
+     - Slovak
+     - Turkish
+     - Chinese
+     - Occitan
+     - Slovenian
+     - Hungarian
+
+47.alpha - 15 Jul, 2024
+=====================
+
+Changes since 46.0
+
+  - Bump freerdp version to 3.6.3 for flatpak
+  - Fix build of flatpak
+  - Move fullscreen button to the topbar
+  - Fix handling of authentication/certificate dialog
+
+  - Update gtk-frdp
+     - Make connection via RDP synchronous to prevent race conditions
+     - Handle freerdp_shall_disconnect() sooner
+     - Clear the update_id when the source is removed
+     - Fix getting of properties for session
+     - Do not block CPU during iterations
+     - Disconnect handlers on disconnection
+     - Wait until fuse-session thread is finished
+     - Clear the clipboard if it contains remote data at finalize
+
+  - Added/Updated translations:
+     - Brazilian
+     - German
+     - Greek
+     - Hindi
+     - Kabyle
+     - Nepali
+     - Portuguese
+
+46.0 - 18 Mar, 2024
+=====================
+
+Changes since 46.rc
+
+  - Update links in app metadata
+  - Clarify a title of a dialog
+
+  - Update gtk-frdp
+     - Do not attempt to process empty clipboard data
+     - Do not send coordinates with smooth scroll
+     - Limit value of mouse scroll
+
+  - Updated translations:
+     - Brazilian-Portuguese
+     - Catalan
+     - Danish
+     - Italian
+     - Korean
+     - Latvian
+     - Norwegian-Bokm-l
+     - Occitan
+     - Polish
+     - Punjabi
+     - Swedish
+
+46.rc - 02 Mar, 2024
+=====================
+
+Changes since 46.beta
+
+  - Fixed touchpad scrolling
+  - Merge the duplicite doap files
+  - Add platform information to doap file
+  - Fix wrong developer id in metainfo
+
+  - Update gtk-frdp
+     - Add support for FreerRDP 3
+     - Handle smooth scroll events smoothly
+
+  - Updated translations:
+     - Basque
+     - British-English
+     - Catalan
+     - Chinese-China
+     - Dutch
+     - Finnish
+     - French
+     - Friulian
+     - Galician
+     - Georgian
+     - German
+     - Hebrew
+     - Hungarian
+     - Indonesian
+     - Kazakh
+     - Latvian
+     - Lithuanian
+     - Occitan
+     - Persian
+     - Russian
+     - Slovenian
+     - Spanish
+     - Turkish
+     - Ukrainian
+
+46.beta - 10 Feb, 2024
+=====================
+
+Changes since 45.0
+
+  - Add certificate verification for RDP
+  - Add support for domains
+  - Improve text of onboarding
+  - Improve appdata for AppStream-1.0
+  - Fix translation of vala files
+  - Change icon for changed certificate
+  - Update POTFILES.in
+
+  - Update gtk-frdp
+     - Fix several crashes related to clipboard channel
+     - Retain file lists between window refocuses
+     - Add funtionality for handling of certificate verification
+     - Set initial keyboard layout to the local one
+     - Fix too bright colors for some connections
+
+  - Updated translations:
+     - Basque
+     - Catalan
+     - Czech
+     - Esperanto
+     - Friulian
+     - Persian
+     - Romanian
+     - Russian
+     - Swedish
+     - Turkish
+
 45.0 - 16 Sep, 2023
 =====================
 

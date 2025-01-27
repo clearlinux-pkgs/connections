@@ -1,5 +1,4 @@
-45.0
-appstream-glib
+47.2.1
 pkgconfig(gtk-vnc-2.0)
 pkgconfig(libhandy-1)
 pkgconfig(libsecret-1)
